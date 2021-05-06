@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Orelsan</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<h1>La vie d'Orelsan</h1>
+		<div class="photo-bio"><a onmouseover="change_photo('images/orelsan.jpg','images/orelsan2.jpg')" 
+		onmouseout="change_photo('orelsan2.jpg','orelsan.jpg')"href="orelsan.jpg">
+			<img src="images/orelsan.jpg" alt="Photo d'Orelsan" id="photo"></a>
+			<p class="biographie">Orelsan, de son vrai nom Aurélien Cotentin, né le 1er août 1982 à Alençon dans l'Orne, est un rappeur, compositeur, acteur, réalisateur, scénariste et doubleur français.
+			Son premier album, Perdu d'avance, est publié en 2009. L'album sera un succès public, certifié disque d'or.
+			Son deuxième album Le Chant des sirènes, sort en 2011. Il est certifié double disque de platine et reçoit deux Victoires de la musique.Avec son ami Gringe, ils forment les Casseurs Flowters dès le début des années 2000. En 2013, ils publient l'album Orelsan et Gringe sont les Casseurs Flowters, qui sera certifié disque de platine. Fin 2015, Orelsan co-réalise un film centré sur son duo, Comment c'est loin, dont la bande originale sera aussi certifiée platine. Les deux amis se mettent aussi en scène dans le programme court Bloqués diffusé en 2015-2016 sur Canal+, et sur YouTube où chaque épisode comptabilise plusieurs millions de vues.
+		    En 2017, il revient à la musique avec le single Basique qui annonce la sortie de son troisième album solo : La fête est finie. L'album est certifié disque de diamant et remporte trois Victoires de la musique.</p>
+		</div>
+		<div class="discographie">
+			<p class="discographie-solo">
+				Albums solo:<br>
+				2009 : Perdu d'avance<br>
+				2011 : Le Chant des sirènes<br>
+				2017 : <a href="index2.html">La fête est finie</a></p>
+			<p class="discographie-groupe">
+				Albums des Casseurs Flowters:<br>
+				2013 : Orelsan et Gringe sont les Casseurs Flowters<br>
+				2015 : Comment c'est loin (bande originale du film)</p>
+		</div>
+		<form>
+			<input type="button" class="mode-nuit" value="Mode nuit" onclick="change_color()"></input>
+			<input type="button" class="like" value="like" onclick="like()"></input>
+		</form>
+		<a href="emoji"><img id="emoji" class="emoji" src="images/emoji_triste.png" alt="Emoji"></a>
+		<a href="https://fr.wikipedia.org/wiki/Orelsan "class="source" target="_blank">Source</a>
+	</body>
+	<script src="js/script.js"></script>
+</html>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>La fête est finie</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<h1><bdo dir="ltr">La fête est finie</bdo></h1>
+		<p id="nom-album" class="nom-album"><bdo dir="ltr">La fête est finie</bdo></p>
+		<div class="photo-desc">
+			<a onmouseover="change_photo('images/pochette.jpg','images/pochette2.jpg',true,'La fête est finie - EPILOGUE')" 
+			onmouseout="change_photo('images/pochette2.jpg','images/pochette.jpg',true,'La fête est finie')" href="pochette.jpg">
+				<img src="images/pochette.jpg" alt="Pochette de l'album La fête est finie" id="photo" class="pochette"></a>
+			<p class=desc1><bdo dir="ltr">La fête est finie est le troisième album studio du rappeur français <a href="index.html">Orelsan
+			</a>, sorti le 20 octobre 2017 sur les labels 3e bureau et Wagram. Il comprend initialement quatorze titres et six singles, dont les plus emblématiques sont Basique, sorti le 20 septembre 2017, un mois avant la sortie de l'album, et Défaite de famille, sorti le 28 février 2018. Le 15 novembre 2018 sort une réédition augmentée de l'album baptisée Épilogue et ajoutant onze titres supplémentaires dont quatre singles. L'album connaît un succès critique autant que commercial. Il se classe à la première place des charts français et se voit certifié disque d'or seulement trois jours après sa sortie. L'album est récompensé aux Victoires de la musique dans la catégorie du meilleur album de musique urbaine. Au mois de juin 2018, il est certifié disque de diamant.
+			</bdo></p>
+		</div>
+		<div class="video-desc">
+			<p class="desc2"><bdo dir="ltr">Extrait du clip "Basique" :</bdo></p>
+			<video class="video" width="384" height="288" controls><source src="videos/clip.mp4" type=video/mp4></video>
+		</div>
+		<br>
+		<form>
+			<input type="button" class="mode-nuit" value="Mode nuit" onclick="change_color(true)"></input>
+			<input type="button" class="like" value="like" onclick="like()"></input>
+		</form>	
+		<a href="emoji"><img id="emoji" class="emoji2" src="images/emoji_triste.png" alt="Emoji"></a>
+		<a href="https://fr.wikipedia.org/wiki/La_f%C3%AAte_est_finie_(album)"class="source" target="_blank"><bdo dir="ltr">Source</bdo></a>
+		<button onclick="secret()" class="chut" title="cliquez pas">/!\ Ne pas cliquer /!\</button>
+	</body>
+	<script src="js/script.js"></script>
+</html>
