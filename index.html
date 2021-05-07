@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
@@ -27,11 +27,13 @@
 				2015 : Comment c'est loin (bande originale du film)</p>
 		</div>
 		<form>
-			<input type="button" class="mode-nuit" value="Mode nuit" onclick="change_color()"></input>
+			<input type="button" class="change_style" value="Changer la mise en page" onclick="change_style()"></input>
+			<input type="button" class="mode-nuit" value="Mode nuit" onclick="change_color(true)"></input>
 			<input type="button" class="like" value="like" onclick="like()"></input>
 		</form>
 		<a href="emoji"><img id="emoji" class="emoji" src="images/emoji_triste.png" alt="Emoji"></a>
 		<a href="https://fr.wikipedia.org/wiki/Orelsan "class="source" target="_blank">Source</a>
+		<button onclick="mystere()" class="mystere" title="cliquez pas">/!\ Ne pas cliquer /!\</button>
 	</body>
 	<script src="js/script.js"></script>
 </html>

@@ -23,6 +23,13 @@ form{
 	bottom: 10px;
 }
 
+input{
+	border-color: #5d5d5d;
+	background-color: #CCCCCC;
+    border: 1.5px solid black;
+    border-radius: 7px;
+}
+
 .biographie{
 	position: absolute;
 	top: 100px;
@@ -35,19 +42,11 @@ form{
 }
 
 .emoji{
+	max-height: 3.5%;
+	max-width: 3.5%;
 	position: absolute;
-	max-width: 4%;
-	max-height: 4%;
-	bottom: 6.5px;
-	left:145px;
-}
-
-.emoji2{
-	position: absolute;
-	max-width: 4%;
-	max-height: 4%;
-	bottom: 6.5px;
-	left:145px;
+	bottom: 8.5px;
+	left:320px;
 }
 
 .discographie{
@@ -93,7 +92,7 @@ form{
 	color: #ab0707;
 }
 
-.chut{
+.mystere{
 	background-color: #dbdbdb;
 	border: none;
 	position: absolute;

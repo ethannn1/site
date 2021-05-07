@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<h1><bdo dir="ltr">La fête est finie</bdo></h1>
-		<p id="nom-album" class="nom-album"><bdo dir="ltr">La fête est finie</bdo></p>
+		<p id="nom-album" class="nom-album"><bdo id="direction-nom-alb" dir="ltr">La fête est finie</bdo></p>
 		<div class="photo-desc">
 			<a onmouseover="change_photo('images/pochette.jpg','images/pochette2.jpg',true,'La fête est finie - EPILOGUE')" 
 			onmouseout="change_photo('images/pochette2.jpg','images/pochette.jpg',true,'La fête est finie')" href="pochette.jpg">
@@ -22,12 +22,13 @@
 		</div>
 		<br>
 		<form>
+			<input type="button" class="change_style" value="Changer la mise en page" onclick="change_style()"></input>
 			<input type="button" class="mode-nuit" value="Mode nuit" onclick="change_color(true)"></input>
 			<input type="button" class="like" value="like" onclick="like()"></input>
 		</form>	
-		<a href="emoji"><img id="emoji" class="emoji2" src="images/emoji_triste.png" alt="Emoji"></a>
+		<a href="emoji"><img id="emoji" class="emoji" src="images/emoji_triste.png" alt="Emoji"></a>
 		<a href="https://fr.wikipedia.org/wiki/La_f%C3%AAte_est_finie_(album)"class="source" target="_blank"><bdo dir="ltr">Source</bdo></a>
-		<button onclick="secret()" class="chut" title="cliquez pas">/!\ Ne pas cliquer /!\</button>
+		<button onclick="mystere2()" class="mystere" title="cliquez pas">/!\ Ne pas cliquer /!\</button>
 	</body>
 	<script src="js/script.js"></script>
 </html>
