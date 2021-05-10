@@ -15,7 +15,7 @@ p{
 	font-size: 20px;
 	border: 1.5px solid #A0A0A0;
 	background: #C0C0C0;
-	border-radius: 10px;
+	border-radius: 8px;
 }
 
 form{
@@ -24,10 +24,10 @@ form{
 }
 
 input{
-	border-color: #5d5d5d;
 	background-color: #CCCCCC;
     border: 1.5px solid black;
     border-radius: 7px;
+	border-color: #A0A0A0;
 }
 
 .biographie{
@@ -100,4 +100,11 @@ input{
 	left: 0px;
 	color: #BBBBBB;
 	font-size: 8px;
+}
+
+#concours{
+	position: absolute;
+	font-size: 16px;
+	left: 400px;
+	bottom: -6.5px;
 }

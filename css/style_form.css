@@ -1,0 +1,72 @@
+body{
+	background-color: #dbdbdb;
+	font-family: Arial;
+}
+
+h1{
+	color: red;
+	text-align: center;
+}
+
+fieldset{
+	position: absolute;
+	width: 700px;
+	height: 270px;
+	bottom: 300px;
+	right: 100px;
+	border: 3px solid transparent;
+	border-image: linear-gradient(to bottom, red 0%, orange 100%);
+	border-image-slice: 1;
+}
+
+.Required, .adress, option, select{
+	height: 30px;
+	width: 360px;
+	background-color: #CCCCCC;
+    border: 1.5px solid black;
+    border-radius: 7px;
+	border-color: #A0A0A0;
+}
+
+strong{
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+.emoji{
+	max-height: 3.5%;
+	max-width: 3.5%;
+	position: absolute;
+	bottom: 8.5px;
+	left:320px;
+}
+
+.photo { 
+  border:2px solid #2d2d2d;
+  min-width: 25%;
+}
+
+.mode-nuit, .like, .valider{
+	position: absolute;
+	bottom: 10px;
+	border-color: #5d5d5d;
+	background-color: #CCCCCC;
+    border: 1.5px solid black;
+    border-radius: 7px;
+}
+
+.like{
+	position: absolute;
+	left:90px;
+}
+
+.emoji{
+	position: absolute;
+	left:150px;
+}
+
+
+.Hidden 
+{
+	visibility: hidden;
+}

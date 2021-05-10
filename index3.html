@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Concours pour gagner un CD dédicacé</title>
+		<script src="js/script.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="css/style_form.css">
+	</head>
+	<body>
+		<h1>CONCOURS - Gagner un CD dédicacé !</h1>
+		<p><strong>Album collector + poster dédicacé à gagner !</strong></p>
+		<a href="pochette.jpg"> <img src="images/cadeau_concours.png" alt="Lot à gagner" class="photo" class="pochette"></a>
+		<p id="retour">Concours proposé par le fan club <a href="index.html">d'Orelsan</a></p>
+		<input type="button" class="mode-nuit" value="Mode nuit" onclick="change_color()"></input>
+		<input type="button" class="like" value="like" onclick="like()"></input>
+		<br>
+		<form name="formulaire" method="get" action="https://webia.lip6.fr/~muratetm/diu/Form_data.php" target="_blank">
+			<fieldset class="inscription">
+				<legend>Inscription au concours</legend>
+				<table>
+					<tr>
+						<td>Nom</td>
+						<td><input class="Required" name="Nom" size="30" maxlength="40" type="text"></td>
+					</tr>
+					<tr>
+						<td>Prénom</td>
+						<td><input class="Required" name="Prenom" size="30" maxlength="30" type="text"></td>
+					</tr>
+					<tr>
+						<td>Email</td>
+						<td><input class="Required" name="Email" id="Email" onfocusin="resetColor(this)" onfocusout="checkEmail(this)" size="30" maxlength="48" type="text"></td>
+					</tr>
+					<tr>
+						<td>Livraison en point-relais ?</td>
+						<td><select name="TShirt" onchange="cacherMontrerAdresse(this)">
+							<option value="Non">Oui</option>
+							<option value="Oui">Non</option></td>
+						</select>
+					</tr>
+					<tr class="Hidden" id="AdresseCanvas">
+						<td>Adresse de livraison</td>
+						<td><input class="adress" name="Adresse" size="30" maxlength="60" type="text"></td>
+					</tr>
+					<tr>
+						<td><input class="valider" value="Valider" type="button" onclick="valider()"></input></td>
+					</tr>
+				</table>
+			</fieldset>	
+		</form>
+	<a href="emoji"><img id="emoji" class="emoji" src="images/emoji_triste.png" alt="Emoji"></a>
+	</body>
+</html>

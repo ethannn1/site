@@ -22,10 +22,10 @@ form{
 }
 
 input{
-	border-color: #5d5d5d;
 	background-color: #CCCCCC;
     border: 1.5px solid black;
     border-radius: 7px;
+    border-color: #A0A0A0;
 }
 
 .photo-bio {
@@ -116,4 +116,11 @@ input{
 	bottom: 280px;
 	left:100px;
     white-space: nowrap;
+}
+
+#concours{
+	position: absolute;
+	font-size: 16px;
+	left: 400px;
+	bottom: -6.5px;
 }
